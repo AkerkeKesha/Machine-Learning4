@@ -1,8 +1,9 @@
-import random
 from matplotlib import pyplot as plt
 import numpy as np
 from numpy.linalg import inv
-random.seed(10)
+import secrets
+
+secrets.SystemRandom().seed(10)
 np.random.seed(10)
 
 # Put test function here, if p=0 then it has some normalized error
